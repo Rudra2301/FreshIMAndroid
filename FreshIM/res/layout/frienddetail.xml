@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/white">
+    
+	    <RelativeLayout
+	        android:id="@+id/frienddetail_edittext_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:background="@color/gray_f">
+	        
+	        <ImageView
+		        android:id="@+id/frienddetail_sendbutton"
+		        android:layout_width="50dp"
+		        android:layout_height="50dp"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:padding="5dp"
+		        android:src="@drawable/tick"
+		        android:onClick="onSendClick" />
+	        
+	        <ImageView
+		        android:id="@+id/frienddetail_uploadbutton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_centerVertical="true"
+		        android:padding="5dp"
+		        android:src="@drawable/camera"
+		        android:onClick="onUploadClick" />
+	        
+	        <RelativeLayout
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:layout_toLeftOf="@id/frienddetail_sendbutton"
+		        android:layout_toRightOf="@id/frienddetail_uploadbutton"
+			    android:layout_marginTop="5dp"
+			    android:layout_marginBottom="5dp"
+	        	android:background="@drawable/sublayout_bg_curve">
+				
+		        <EditText
+			        android:id="@+id/frienddetail_edittext"
+			        android:layout_width="match_parent"
+			        android:layout_height="wrap_content"
+			        android:inputType="textShortMessage|textNoSuggestions|textCapSentences|textMultiLine"	
+			        android:maxLines="5"		        
+			        android:hint="say something"
+			        android:background="@color/transparent" />
+	        
+	        </RelativeLayout>
+	        	
+		</RelativeLayout>
+        
+	    <RelativeLayout
+	        android:id="@+id/frienddetail_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_above="@id/frienddetail_edittext_layout" >
+	        
+	        <ListView
+		        android:id="@+id/frienddetail_listview"
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:divider="@color/transparent"
+		        android:listSelector="@color/transparent"
+		        android:background="@color/transparent" />
+		        
+		</RelativeLayout>
+		
+      
+</RelativeLayout>

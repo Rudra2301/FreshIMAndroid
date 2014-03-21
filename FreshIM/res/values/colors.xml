@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="transparent">#00000000</color>
+    
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="green">#23cf34</color>
+    <color name="green_android">#a4c739</color>
+    <color name="orange">#E47833</color>
+    <color name="lite_blue">#4E78A0</color>
+    <color name="blue">#0000FF</color>
+    
+    <color name="grey">#FF909090</color>
+    <color name="gray">#FFB3B3B3</color>    
+    <color name="gray_f">#F0F0F0</color>
+    <color name="gray_e">#E0E0E0</color>
+    <color name="gray_d">#D0D0D0</color>
+    <color name="gray_b">#B0B0B0</color>
+    <color name="gray_a">#A0A0A0</color>
+    <color name="gray_9">#909090</color>
+    <color name="gray_7">#707070</color>
+    <color name="gray_5">#505050</color>
+    <color name="gray_3">#303030</color>
+    <color name="graay">#FFB3B3B3</color>
+    <color name="dark_gray">#FF909090</color>
+    <color name="darker_gray">#FFB0B0B0</color>
+    <color name="off_white">#F0F0F0</color>
+    
+    <color name="blue_facebook">#3B5998</color>
+    <color name="blue_facebook1">#8b9dc3</color>
+    <color name="blue_facebook2">#f7f7f7</color>
+    <color name="blue_facebook3">#dfe3ee</color>
+    <color name="blue_facebook_click">#4B6998</color>
+    <color name="blue_facebook_dull">#4B6998</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    
+    <color name="pink">#CC0066</color>
+    <color name="pink_light">#B40486</color>
+    <color name="pink_lightest">#EE66CC</color>
+    <color name="cook_a_plan_theme_color">#B40486</color>
+    
+    <color name="purple">#936AFF</color>
+    <color name="purpleLite">#9679FF</color>
+    <color name="purpleDark">#835CFF</color>
+    <color name="red">#FF0000</color>
+    <color name="redLite">#FF6C84</color>
+    <color name="redDark">#E00504</color>
+    
+    <color name="yellow">#ffff00</color>
+    
+</resources>

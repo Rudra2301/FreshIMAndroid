@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    
+	<RelativeLayout
+		android:layout_width="wrap_content"
+	  	android:layout_height="wrap_content"
+	  	android:layout_alignParentRight="true"
+	  	android:layout_marginLeft="30dp"
+	  	android:layout_marginTop="10dp"
+	  	android:layout_marginBottom="10dp"
+	 	android:padding="5dp"
+	 	android:gravity="center"
+	 	android:background="@drawable/chat_bubble_blue">
+	    
+	    <RelativeLayout
+	        android:id="@+id/frienddetail_textimage_layout_f"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:layout_marginRight="15dp" >
+	        
+	        <RelativeLayout
+		        android:id="@+id/frienddetail_text_layout_f"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true" 
+		        android:visibility="visible">
+		        
+			    <TextView
+			        android:id="@+id/frienddetail_message_text_f"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textStyle="bold"
+			        android:textIsSelectable="true"
+			        android:textColor="@color/white"
+			        android:text="hello hello hello hello hello hello hello hello hello hello hello hello hello hello "/>
+				
+		    </RelativeLayout>
+        	
+		    <RelativeLayout
+		        android:id="@+id/frienddetail_image_layout_f"
+		        android:layout_width="180dp"
+		        android:layout_height="180dp"
+		        android:layout_centerVertical="true"
+		        android:visibility="gone">
+	        	
+			    <ImageView
+			        android:id="@+id/frienddetail_message_image_f"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:scaleType="centerCrop"
+			        android:src="@drawable/ic_launcher"/>
+		    	
+			</RelativeLayout>
+			
+		</RelativeLayout>
+			    
+	    <RelativeLayout
+	        android:id="@+id/frienddetail_time_layout_f"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/frienddetail_textimage_layout_f"
+	        android:layout_alignLeft="@id/frienddetail_textimage_layout_f" >
+			
+	        <TextView
+	            android:id="@+id/frienddetail_time_text_f"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:gravity="right"
+	            android:text="2.50 pm"
+			    android:textColor="@color/white" />
+	        	        
+	    </RelativeLayout>
+		    
+	</RelativeLayout>
+      
+</RelativeLayout>

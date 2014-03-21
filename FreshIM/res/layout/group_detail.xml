@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    android:background="@color/gray_f" >
+    
+    <ImageView 
+        android:id="@+id/groupImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onUploadClick"
+        android:scaleType="fitCenter"
+		android:src="@drawable/group"
+		android:visibility="visible"/>
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:padding="10dp"
+	    android:gravity="center_vertical" >
+      
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Group Name:"/>
+      
+     <EditText android:id="@+id/groupName"
+         android:layout_width="fill_parent"
+         android:layout_height="40dip"
+         android:inputType="textPersonName|textNoSuggestions"
+         android:padding="5dp"
+         android:hint="group name"
+         android:clickable="false"
+         android:editable="false"
+         android:background="@drawable/sublayout_bg_curve"/>
+    
+    </LinearLayout> 
+ 	
+</LinearLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    android:padding="3dp"
+    android:background="@color/gray_e">
+    
+    <ProgressBar
+		android:id="@+id/progressLoader"
+		style="?android:attr/progressBarStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:visibility="gone" />
+    
+    <ImageView 
+        android:id="@+id/editgroupmemberimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:onClick="onAddUserClick"
+        android:scaleType="fitCenter"
+		android:src="@drawable/edit"
+		android:visibility="gone"
+		android:clickable="false"/>
+    
+    <TextView android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Group Members"
+         android:textStyle="bold"
+         android:layout_centerVertical="true"/>
+    
+</RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    
+    <ListView 
+        android:id="@+id/groupfriendlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+        
+</RelativeLayout>
+
+</LinearLayout>

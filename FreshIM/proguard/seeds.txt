@@ -1,0 +1,758 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity: FragmentActivity()
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.content.WakefulBroadcastReceiver: WakefulBroadcastReceiver()
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTabStrip: boolean getDrawFullUnderline()
+android.support.v4.view.PagerTabStrip: int getMinHeight()
+android.support.v4.view.PagerTitleStrip: void setSingleLineAllCaps(android.widget.TextView)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: int getTextSpacing()
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.PagerTitleStrip: int getMinHeight()
+android.support.v4.view.ViewPager: void setScrollState(int)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: android.support.v4.view.PagerAdapter getAdapter()
+android.support.v4.view.ViewPager: void setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+android.support.v4.view.ViewPager: int getClientWidth()
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: int getCurrentItem()
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setChildrenDrawingOrderEnabledCompat(boolean)
+android.support.v4.view.ViewPager: int getOffscreenPageLimit()
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: int getPageMargin()
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.DrawerLayout
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.DrawerLayout: void setScrimColor(int)
+android.support.v4.widget.DrawerLayout: void setDrawerListener(android.support.v4.widget.DrawerLayout$DrawerListener)
+android.support.v4.widget.DrawerLayout: void setDrawerLockMode(int)
+android.support.v4.widget.DrawerLayout$SavedState
+android.support.v4.widget.DrawerLayout$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.SlidingPaneLayout
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet)
+android.support.v4.widget.SlidingPaneLayout: SlidingPaneLayout(android.content.Context,android.util.AttributeSet,int)
+android.support.v4.widget.SlidingPaneLayout: void setParallaxDistance(int)
+android.support.v4.widget.SlidingPaneLayout: int getParallaxDistance()
+android.support.v4.widget.SlidingPaneLayout: void setSliderFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getSliderFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setCoveredFadeColor(int)
+android.support.v4.widget.SlidingPaneLayout: int getCoveredFadeColor()
+android.support.v4.widget.SlidingPaneLayout: void setPanelSlideListener(android.support.v4.widget.SlidingPaneLayout$PanelSlideListener)
+android.support.v4.widget.SlidingPaneLayout: void setShadowDrawable(android.graphics.drawable.Drawable)
+android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
+android.support.v4.widget.SlidingPaneLayout$SavedState
+android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
+com.android.volley.Request$Priority: com.android.volley.Request$Priority[] values()
+com.android.volley.Request$Priority: com.android.volley.Request$Priority valueOf(java.lang.String)
+com.android.volley.toolbox.NetworkImageView: void setDefaultImageResId(int)
+com.android.volley.toolbox.NetworkImageView: void setErrorImageResId(int)
+com.android.volley.users.NetworkImageViewCircularImageView: void setDefaultImageResId(int)
+com.android.volley.users.NetworkImageViewCircularImageView: void setErrorImageResId(int)
+com.chat.imapp.DownLoadFileService
+com.chat.imapp.DownLoadFileService: DownLoadFileService()
+com.chat.imapp.EditPasswordActivity
+com.chat.imapp.EditPasswordActivity: EditPasswordActivity()
+com.chat.imapp.EditProfileActivity
+com.chat.imapp.EditProfileActivity: EditProfileActivity()
+com.chat.imapp.EditProfileActivity: void onUploadClick(android.view.View)
+com.chat.imapp.FriendRequestService
+com.chat.imapp.FriendRequestService: FriendRequestService()
+com.chat.imapp.FriendsAllListActivity
+com.chat.imapp.FriendsAllListActivity: FriendsAllListActivity()
+com.chat.imapp.FriendsDetailActivity
+com.chat.imapp.FriendsDetailActivity: FriendsDetailActivity()
+com.chat.imapp.FriendsDetailActivity: void onSendClick(android.view.View)
+com.chat.imapp.FriendsDetailActivity: void onUploadClick(android.view.View)
+com.chat.imapp.FriendsListActivity
+com.chat.imapp.FriendsListActivity: FriendsListActivity()
+com.chat.imapp.FriendsListActivity: void onToggleClick(android.view.View)
+com.chat.imapp.FriendsListActivity: void onAddClick(android.view.View)
+com.chat.imapp.GcmBroadcastReceiver
+com.chat.imapp.GcmBroadcastReceiver: GcmBroadcastReceiver()
+com.chat.imapp.GcmIntentService
+com.chat.imapp.GcmIntentService: GcmIntentService()
+com.chat.imapp.GroupChooseFriendListActivity
+com.chat.imapp.GroupChooseFriendListActivity: GroupChooseFriendListActivity()
+com.chat.imapp.GroupCreateActivity
+com.chat.imapp.GroupCreateActivity: GroupCreateActivity()
+com.chat.imapp.GroupCreateActivity: void onUploadClick(android.view.View)
+com.chat.imapp.GroupDetailActivity
+com.chat.imapp.GroupDetailActivity: GroupDetailActivity()
+com.chat.imapp.GroupDetailActivity: void onAddUserClick(android.view.View)
+com.chat.imapp.GroupDetailActivity: void onUploadClick(android.view.View)
+com.chat.imapp.GroupEditMemberListActivity
+com.chat.imapp.GroupEditMemberListActivity: GroupEditMemberListActivity()
+com.chat.imapp.GroupListActivity
+com.chat.imapp.GroupListActivity: GroupListActivity()
+com.chat.imapp.GroupMessageDetailActivity
+com.chat.imapp.GroupMessageDetailActivity: GroupMessageDetailActivity()
+com.chat.imapp.GroupMessageDetailActivity: void onSendClick(android.view.View)
+com.chat.imapp.GroupMessageDetailActivity: void onUploadClick(android.view.View)
+com.chat.imapp.LoadFileService
+com.chat.imapp.LoadFileService: LoadFileService()
+com.chat.imapp.LoadImageService
+com.chat.imapp.LoadImageService: LoadImageService()
+com.chat.imapp.LoginActivity
+com.chat.imapp.LoginActivity: LoginActivity()
+com.chat.imapp.LoginActivity: void onSkipClick(android.view.View)
+com.chat.imapp.R$anim: int fade_actionbar
+com.chat.imapp.R$anim: int fade_list_item
+com.chat.imapp.R$array: int homelistitem
+com.chat.imapp.R$attr: int adSize
+com.chat.imapp.R$attr: int adUnitId
+com.chat.imapp.R$attr: int cameraBearing
+com.chat.imapp.R$attr: int cameraTargetLat
+com.chat.imapp.R$attr: int cameraTargetLng
+com.chat.imapp.R$attr: int cameraTilt
+com.chat.imapp.R$attr: int cameraZoom
+com.chat.imapp.R$attr: int mapType
+com.chat.imapp.R$attr: int uiCompass
+com.chat.imapp.R$attr: int uiRotateGestures
+com.chat.imapp.R$attr: int uiScrollGestures
+com.chat.imapp.R$attr: int uiTiltGestures
+com.chat.imapp.R$attr: int uiZoomControls
+com.chat.imapp.R$attr: int uiZoomGestures
+com.chat.imapp.R$attr: int useViewLifecycle
+com.chat.imapp.R$attr: int zOrderOnTop
+com.chat.imapp.R$color: int black
+com.chat.imapp.R$color: int blue
+com.chat.imapp.R$color: int blue_facebook
+com.chat.imapp.R$color: int blue_facebook1
+com.chat.imapp.R$color: int blue_facebook2
+com.chat.imapp.R$color: int blue_facebook3
+com.chat.imapp.R$color: int blue_facebook_click
+com.chat.imapp.R$color: int blue_facebook_dull
+com.chat.imapp.R$color: int common_action_bar_splitter
+com.chat.imapp.R$color: int common_signin_btn_dark_text_default
+com.chat.imapp.R$color: int common_signin_btn_dark_text_disabled
+com.chat.imapp.R$color: int common_signin_btn_dark_text_focused
+com.chat.imapp.R$color: int common_signin_btn_dark_text_pressed
+com.chat.imapp.R$color: int common_signin_btn_default_background
+com.chat.imapp.R$color: int common_signin_btn_light_text_default
+com.chat.imapp.R$color: int common_signin_btn_light_text_disabled
+com.chat.imapp.R$color: int common_signin_btn_light_text_focused
+com.chat.imapp.R$color: int common_signin_btn_light_text_pressed
+com.chat.imapp.R$color: int common_signin_btn_text_dark
+com.chat.imapp.R$color: int common_signin_btn_text_light
+com.chat.imapp.R$color: int cook_a_plan_theme_color
+com.chat.imapp.R$color: int dark_gray
+com.chat.imapp.R$color: int darker_gray
+com.chat.imapp.R$color: int graay
+com.chat.imapp.R$color: int gray
+com.chat.imapp.R$color: int gray_3
+com.chat.imapp.R$color: int gray_5
+com.chat.imapp.R$color: int gray_7
+com.chat.imapp.R$color: int gray_9
+com.chat.imapp.R$color: int gray_a
+com.chat.imapp.R$color: int gray_b
+com.chat.imapp.R$color: int gray_d
+com.chat.imapp.R$color: int gray_e
+com.chat.imapp.R$color: int gray_f
+com.chat.imapp.R$color: int green
+com.chat.imapp.R$color: int green_android
+com.chat.imapp.R$color: int grey
+com.chat.imapp.R$color: int holo_blue_bright
+com.chat.imapp.R$color: int holo_blue_dark
+com.chat.imapp.R$color: int holo_blue_light
+com.chat.imapp.R$color: int lite_blue
+com.chat.imapp.R$color: int off_white
+com.chat.imapp.R$color: int orange
+com.chat.imapp.R$color: int pink
+com.chat.imapp.R$color: int pink_light
+com.chat.imapp.R$color: int pink_lightest
+com.chat.imapp.R$color: int purple
+com.chat.imapp.R$color: int purpleDark
+com.chat.imapp.R$color: int purpleLite
+com.chat.imapp.R$color: int red
+com.chat.imapp.R$color: int redDark
+com.chat.imapp.R$color: int redLite
+com.chat.imapp.R$color: int transparent
+com.chat.imapp.R$color: int white
+com.chat.imapp.R$color: int yellow
+com.chat.imapp.R$dimen: int activity_horizontal_margin
+com.chat.imapp.R$dimen: int activity_vertical_margin
+com.chat.imapp.R$drawable: int bg
+com.chat.imapp.R$drawable: int bg3
+com.chat.imapp.R$drawable: int camera
+com.chat.imapp.R$drawable: int chat_bubble_blue
+com.chat.imapp.R$drawable: int chat_bubble_grey
+com.chat.imapp.R$drawable: int common_signin_btn_icon_dark
+com.chat.imapp.R$drawable: int common_signin_btn_icon_disabled_dark
+com.chat.imapp.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.chat.imapp.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.chat.imapp.R$drawable: int common_signin_btn_icon_disabled_light
+com.chat.imapp.R$drawable: int common_signin_btn_icon_focus_dark
+com.chat.imapp.R$drawable: int common_signin_btn_icon_focus_light
+com.chat.imapp.R$drawable: int common_signin_btn_icon_light
+com.chat.imapp.R$drawable: int common_signin_btn_icon_normal_dark
+com.chat.imapp.R$drawable: int common_signin_btn_icon_normal_light
+com.chat.imapp.R$drawable: int common_signin_btn_icon_pressed_dark
+com.chat.imapp.R$drawable: int common_signin_btn_icon_pressed_light
+com.chat.imapp.R$drawable: int common_signin_btn_text_dark
+com.chat.imapp.R$drawable: int common_signin_btn_text_disabled_dark
+com.chat.imapp.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.chat.imapp.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.chat.imapp.R$drawable: int common_signin_btn_text_disabled_light
+com.chat.imapp.R$drawable: int common_signin_btn_text_focus_dark
+com.chat.imapp.R$drawable: int common_signin_btn_text_focus_light
+com.chat.imapp.R$drawable: int common_signin_btn_text_light
+com.chat.imapp.R$drawable: int common_signin_btn_text_normal_dark
+com.chat.imapp.R$drawable: int common_signin_btn_text_normal_light
+com.chat.imapp.R$drawable: int common_signin_btn_text_pressed_dark
+com.chat.imapp.R$drawable: int common_signin_btn_text_pressed_light
+com.chat.imapp.R$drawable: int drawer_shadow
+com.chat.imapp.R$drawable: int edit
+com.chat.imapp.R$drawable: int fileimage
+com.chat.imapp.R$drawable: int group
+com.chat.imapp.R$drawable: int ic_action_add_group
+com.chat.imapp.R$drawable: int ic_action_cancel
+com.chat.imapp.R$drawable: int ic_action_group
+com.chat.imapp.R$drawable: int ic_action_new
+com.chat.imapp.R$drawable: int ic_action_next_item
+com.chat.imapp.R$drawable: int ic_action_previous_item
+com.chat.imapp.R$drawable: int ic_drawer
+com.chat.imapp.R$drawable: int ic_launcher
+com.chat.imapp.R$drawable: int ic_plusone_medium_off_client
+com.chat.imapp.R$drawable: int ic_plusone_small_off_client
+com.chat.imapp.R$drawable: int ic_plusone_standard_off_client
+com.chat.imapp.R$drawable: int ic_plusone_tall_off_client
+com.chat.imapp.R$drawable: int icon
+com.chat.imapp.R$drawable: int images
+com.chat.imapp.R$drawable: int logo
+com.chat.imapp.R$drawable: int me2
+com.chat.imapp.R$drawable: int nofriends
+com.chat.imapp.R$drawable: int offline
+com.chat.imapp.R$drawable: int online
+com.chat.imapp.R$drawable: int prev
+com.chat.imapp.R$drawable: int selector_button
+com.chat.imapp.R$drawable: int selector_list
+com.chat.imapp.R$drawable: int selector_list_gray
+com.chat.imapp.R$drawable: int selector_list_green
+com.chat.imapp.R$drawable: int send
+com.chat.imapp.R$drawable: int sublayout_bg_curve
+com.chat.imapp.R$drawable: int tick
+com.chat.imapp.R$drawable: int top_logo
+com.chat.imapp.R$drawable: int u2
+com.chat.imapp.R$drawable: int user
+com.chat.imapp.R$id: int action_settings
+com.chat.imapp.R$id: int actionbar
+com.chat.imapp.R$id: int btnLogin
+com.chat.imapp.R$id: int btnRegister
+com.chat.imapp.R$id: int chekbox
+com.chat.imapp.R$id: int confirmedittext
+com.chat.imapp.R$id: int content_frame
+com.chat.imapp.R$id: int creategroup
+com.chat.imapp.R$id: int delete
+com.chat.imapp.R$id: int details
+com.chat.imapp.R$id: int drawer_layout
+com.chat.imapp.R$id: int editgroupmemberimage
+com.chat.imapp.R$id: int friendBubble
+com.chat.imapp.R$id: int friend_add_button
+com.chat.imapp.R$id: int friend_count_text
+com.chat.imapp.R$id: int friend_image
+com.chat.imapp.R$id: int friend_image_layout
+com.chat.imapp.R$id: int friend_name_text
+com.chat.imapp.R$id: int friend_online_image_layout
+com.chat.imapp.R$id: int friend_onlineimage
+com.chat.imapp.R$id: int friend_reject_button
+com.chat.imapp.R$id: int friend_text_layout
+com.chat.imapp.R$id: int frienddetail1_image_layout
+com.chat.imapp.R$id: int frienddetail1_message_image
+com.chat.imapp.R$id: int frienddetail1_message_text
+com.chat.imapp.R$id: int frienddetail1_name_layout
+com.chat.imapp.R$id: int frienddetail1_name_text
+com.chat.imapp.R$id: int frienddetail1_text_layout
+com.chat.imapp.R$id: int frienddetail1_textimage_layout
+com.chat.imapp.R$id: int frienddetail1_time_layout
+com.chat.imapp.R$id: int frienddetail1_time_text
+com.chat.imapp.R$id: int frienddetail2_user_image
+com.chat.imapp.R$id: int frienddetail2_user_layout
+com.chat.imapp.R$id: int frienddetail_edittext
+com.chat.imapp.R$id: int frienddetail_edittext_layout
+com.chat.imapp.R$id: int frienddetail_image_layout_f
+com.chat.imapp.R$id: int frienddetail_layout
+com.chat.imapp.R$id: int frienddetail_listview
+com.chat.imapp.R$id: int frienddetail_message_image_f
+com.chat.imapp.R$id: int frienddetail_message_text_f
+com.chat.imapp.R$id: int frienddetail_name_layout_f
+com.chat.imapp.R$id: int frienddetail_name_text_f
+com.chat.imapp.R$id: int frienddetail_sendbutton
+com.chat.imapp.R$id: int frienddetail_text_layout_f
+com.chat.imapp.R$id: int frienddetail_textimage_layout_f
+com.chat.imapp.R$id: int frienddetail_time_layout_f
+com.chat.imapp.R$id: int frienddetail_time_text_f
+com.chat.imapp.R$id: int frienddetail_uploadbutton
+com.chat.imapp.R$id: int friendslist
+com.chat.imapp.R$id: int groupImage
+com.chat.imapp.R$id: int groupName
+com.chat.imapp.R$id: int group_message
+com.chat.imapp.R$id: int groupfriendlist
+com.chat.imapp.R$id: int homelist
+com.chat.imapp.R$id: int hybrid
+com.chat.imapp.R$id: int left_drawer
+com.chat.imapp.R$id: int left_drawer_layout
+com.chat.imapp.R$id: int list
+com.chat.imapp.R$id: int list_layout
+com.chat.imapp.R$id: int listview
+com.chat.imapp.R$id: int loginEmail
+com.chat.imapp.R$id: int loginPassword
+com.chat.imapp.R$id: int logo_image1
+com.chat.imapp.R$id: int logolayout
+com.chat.imapp.R$id: int logout
+com.chat.imapp.R$id: int message_file_download_button_f
+com.chat.imapp.R$id: int message_file_imagetext_layout_f
+com.chat.imapp.R$id: int message_file_imageview
+com.chat.imapp.R$id: int message_file_imageview_f
+com.chat.imapp.R$id: int message_file_layout
+com.chat.imapp.R$id: int message_file_layout_f
+com.chat.imapp.R$id: int message_file_textview
+com.chat.imapp.R$id: int message_file_textview_f
+com.chat.imapp.R$id: int newedittext
+com.chat.imapp.R$id: int nofriendsimage
+com.chat.imapp.R$id: int none
+com.chat.imapp.R$id: int normal
+com.chat.imapp.R$id: int oldedittext
+com.chat.imapp.R$id: int progressLoader
+com.chat.imapp.R$id: int satellite
+com.chat.imapp.R$id: int save
+com.chat.imapp.R$id: int savestatus
+com.chat.imapp.R$id: int statusTextview
+com.chat.imapp.R$id: int statusedittext
+com.chat.imapp.R$id: int terrain
+com.chat.imapp.R$id: int toggle
+com.chat.imapp.R$id: int txtEmail
+com.chat.imapp.R$id: int txtEmailtxt
+com.chat.imapp.R$id: int txtLastName
+com.chat.imapp.R$id: int txtName
+com.chat.imapp.R$id: int txtPassword
+com.chat.imapp.R$id: int txtPasswordtxt
+com.chat.imapp.R$id: int txtStatus
+com.chat.imapp.R$id: int userBubble
+com.chat.imapp.R$id: int userImage
+com.chat.imapp.R$id: int userLayout
+com.chat.imapp.R$id: int user_image
+com.chat.imapp.R$id: int userimage
+com.chat.imapp.R$id: int usernameTextview
+com.chat.imapp.R$integer: int google_play_services_version
+com.chat.imapp.R$layout: int edit_password
+com.chat.imapp.R$layout: int edit_status
+com.chat.imapp.R$layout: int frienddetail
+com.chat.imapp.R$layout: int frienddetailtextitem
+com.chat.imapp.R$layout: int frienddetailtextitem1
+com.chat.imapp.R$layout: int frienddetailtextitemf
+com.chat.imapp.R$layout: int frienddetailtextitemnew
+com.chat.imapp.R$layout: int friendlistitem
+com.chat.imapp.R$layout: int friends_list
+com.chat.imapp.R$layout: int group_create
+com.chat.imapp.R$layout: int group_detail
+com.chat.imapp.R$layout: int group_edit
+com.chat.imapp.R$layout: int home
+com.chat.imapp.R$layout: int homelist
+com.chat.imapp.R$layout: int homeslidingpane
+com.chat.imapp.R$layout: int imageviewer
+com.chat.imapp.R$layout: int login
+com.chat.imapp.R$layout: int register
+com.chat.imapp.R$layout: int settings
+com.chat.imapp.R$layout: int simplelistitem
+com.chat.imapp.R$layout: int simplelistview
+com.chat.imapp.R$layout: int splash
+com.chat.imapp.R$layout: int userdetail
+com.chat.imapp.R$menu: int friends_list
+com.chat.imapp.R$menu: int group_detail
+com.chat.imapp.R$menu: int group_list
+com.chat.imapp.R$menu: int group_message
+com.chat.imapp.R$menu: int login
+com.chat.imapp.R$menu: int status
+com.chat.imapp.R$string: int action_settings
+com.chat.imapp.R$string: int actionbar_text
+com.chat.imapp.R$string: int app_name
+com.chat.imapp.R$string: int auth_client_needs_enabling_title
+com.chat.imapp.R$string: int auth_client_needs_installation_title
+com.chat.imapp.R$string: int auth_client_needs_update_title
+com.chat.imapp.R$string: int auth_client_play_services_err_notification_msg
+com.chat.imapp.R$string: int auth_client_requested_by_msg
+com.chat.imapp.R$string: int auth_client_using_bad_version_title
+com.chat.imapp.R$string: int close
+com.chat.imapp.R$string: int common_google_play_services_enable_button
+com.chat.imapp.R$string: int common_google_play_services_enable_text
+com.chat.imapp.R$string: int common_google_play_services_enable_title
+com.chat.imapp.R$string: int common_google_play_services_install_button
+com.chat.imapp.R$string: int common_google_play_services_install_text_phone
+com.chat.imapp.R$string: int common_google_play_services_install_text_tablet
+com.chat.imapp.R$string: int common_google_play_services_install_title
+com.chat.imapp.R$string: int common_google_play_services_invalid_account_text
+com.chat.imapp.R$string: int common_google_play_services_invalid_account_title
+com.chat.imapp.R$string: int common_google_play_services_network_error_text
+com.chat.imapp.R$string: int common_google_play_services_network_error_title
+com.chat.imapp.R$string: int common_google_play_services_unknown_issue
+com.chat.imapp.R$string: int common_google_play_services_unsupported_date_text
+com.chat.imapp.R$string: int common_google_play_services_unsupported_text
+com.chat.imapp.R$string: int common_google_play_services_unsupported_title
+com.chat.imapp.R$string: int common_google_play_services_update_button
+com.chat.imapp.R$string: int common_google_play_services_update_text
+com.chat.imapp.R$string: int common_google_play_services_update_title
+com.chat.imapp.R$string: int common_signin_button_text
+com.chat.imapp.R$string: int common_signin_button_text_long
+com.chat.imapp.R$string: int creategroup_php
+com.chat.imapp.R$string: int edit_image_php
+com.chat.imapp.R$string: int edit_password_php
+com.chat.imapp.R$string: int edit_profile_php
+com.chat.imapp.R$string: int friendalllist_php
+com.chat.imapp.R$string: int frienddetail_php
+com.chat.imapp.R$string: int frienddetailgcm_php
+com.chat.imapp.R$string: int friendlist_php
+com.chat.imapp.R$string: int friendlistonlyfriends_php
+com.chat.imapp.R$string: int friendrequest_php
+com.chat.imapp.R$string: int group_create
+com.chat.imapp.R$string: int group_detail
+com.chat.imapp.R$string: int group_member_php
+com.chat.imapp.R$string: int groupdelete_php
+com.chat.imapp.R$string: int groupdetail_php
+com.chat.imapp.R$string: int groupfriendlist_php
+com.chat.imapp.R$string: int groupfriendlistmember_php
+com.chat.imapp.R$string: int grouplist_php
+com.chat.imapp.R$string: int groupmemberedit_php
+com.chat.imapp.R$string: int groupnameedit_php
+com.chat.imapp.R$string: int hello_world
+com.chat.imapp.R$string: int internet_lost
+com.chat.imapp.R$string: int login_php
+com.chat.imapp.R$string: int logout
+com.chat.imapp.R$string: int logout_php
+com.chat.imapp.R$string: int message_group_php
+com.chat.imapp.R$string: int message_php
+com.chat.imapp.R$string: int open
+com.chat.imapp.R$string: int register_php
+com.chat.imapp.R$string: int save
+com.chat.imapp.R$string: int status_change_php
+com.chat.imapp.R$style: int AppBaseTheme
+com.chat.imapp.R$style: int AppTheme
+com.chat.imapp.R$style: int MyActionBar
+com.chat.imapp.R$style: int MyTheme
+com.chat.imapp.R$style: int MyTheme_ActionBar_TitleTextStyle
+com.chat.imapp.R$style: int NoActionBar
+com.chat.imapp.R$style: int TextAppearance
+com.chat.imapp.R$styleable: int[] AdsAttrs
+com.chat.imapp.R$styleable: int AdsAttrs_adSize
+com.chat.imapp.R$styleable: int AdsAttrs_adUnitId
+com.chat.imapp.R$styleable: int[] MapAttrs
+com.chat.imapp.R$styleable: int MapAttrs_cameraBearing
+com.chat.imapp.R$styleable: int MapAttrs_cameraTargetLat
+com.chat.imapp.R$styleable: int MapAttrs_cameraTargetLng
+com.chat.imapp.R$styleable: int MapAttrs_cameraTilt
+com.chat.imapp.R$styleable: int MapAttrs_cameraZoom
+com.chat.imapp.R$styleable: int MapAttrs_mapType
+com.chat.imapp.R$styleable: int MapAttrs_uiCompass
+com.chat.imapp.R$styleable: int MapAttrs_uiRotateGestures
+com.chat.imapp.R$styleable: int MapAttrs_uiScrollGestures
+com.chat.imapp.R$styleable: int MapAttrs_uiTiltGestures
+com.chat.imapp.R$styleable: int MapAttrs_uiZoomControls
+com.chat.imapp.R$styleable: int MapAttrs_uiZoomGestures
+com.chat.imapp.R$styleable: int MapAttrs_useViewLifecycle
+com.chat.imapp.R$styleable: int MapAttrs_zOrderOnTop
+com.chat.imapp.RegisterActivity
+com.chat.imapp.RegisterActivity: RegisterActivity()
+com.chat.imapp.RegisterActivity: void onUploadClick(android.view.View)
+com.chat.imapp.ResponseRequestService
+com.chat.imapp.ResponseRequestService: ResponseRequestService()
+com.chat.imapp.SettingsActivity
+com.chat.imapp.SettingsActivity: SettingsActivity()
+com.chat.imapp.SettingsActivity: void onChangeStatusClick(android.view.View)
+com.chat.imapp.SettingsActivity: void onChangePasswordClick(android.view.View)
+com.chat.imapp.SettingsActivity: void onEditProfileClick(android.view.View)
+com.chat.imapp.SplashActivity: void onSkipClick(android.view.View)
+com.chat.imapp.StatusActivity
+com.chat.imapp.StatusActivity: StatusActivity()
+com.chat.imapp.UploadFileActivity
+com.chat.imapp.UploadFileActivity: UploadFileActivity()
+com.chat.imapp.UploadFileActivity: void onSendClick(android.view.View)
+com.chat.imapp.UploadFileActivity: void onUploadClick(android.view.View)
+com.chat.imapp.UploadService
+com.chat.imapp.UploadService: UploadService()
+com.chat.imapp.UserDetailActivity
+com.chat.imapp.UserDetailActivity: UserDetailActivity()
+com.chat.imapp.imagecache.TouchImageView: void setMaxZoom(float)
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.android.gms.R$attr: int adSize
+com.google.android.gms.R$attr: int adUnitId
+com.google.android.gms.R$attr: int cameraBearing
+com.google.android.gms.R$attr: int cameraTargetLat
+com.google.android.gms.R$attr: int cameraTargetLng
+com.google.android.gms.R$attr: int cameraTilt
+com.google.android.gms.R$attr: int cameraZoom
+com.google.android.gms.R$attr: int mapType
+com.google.android.gms.R$attr: int uiCompass
+com.google.android.gms.R$attr: int uiRotateGestures
+com.google.android.gms.R$attr: int uiScrollGestures
+com.google.android.gms.R$attr: int uiTiltGestures
+com.google.android.gms.R$attr: int uiZoomControls
+com.google.android.gms.R$attr: int uiZoomGestures
+com.google.android.gms.R$attr: int useViewLifecycle
+com.google.android.gms.R$attr: int zOrderOnTop
+com.google.android.gms.R$color: int common_action_bar_splitter
+com.google.android.gms.R$color: int common_signin_btn_dark_text_default
+com.google.android.gms.R$color: int common_signin_btn_dark_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_dark_text_focused
+com.google.android.gms.R$color: int common_signin_btn_dark_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_default_background
+com.google.android.gms.R$color: int common_signin_btn_light_text_default
+com.google.android.gms.R$color: int common_signin_btn_light_text_disabled
+com.google.android.gms.R$color: int common_signin_btn_light_text_focused
+com.google.android.gms.R$color: int common_signin_btn_light_text_pressed
+com.google.android.gms.R$color: int common_signin_btn_text_dark
+com.google.android.gms.R$color: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_icon_pressed_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_disabled_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_focus_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_normal_light
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_dark
+com.google.android.gms.R$drawable: int common_signin_btn_text_pressed_light
+com.google.android.gms.R$drawable: int ic_plusone_medium_off_client
+com.google.android.gms.R$drawable: int ic_plusone_small_off_client
+com.google.android.gms.R$drawable: int ic_plusone_standard_off_client
+com.google.android.gms.R$drawable: int ic_plusone_tall_off_client
+com.google.android.gms.R$id: int hybrid
+com.google.android.gms.R$id: int none
+com.google.android.gms.R$id: int normal
+com.google.android.gms.R$id: int satellite
+com.google.android.gms.R$id: int terrain
+com.google.android.gms.R$integer: int google_play_services_version
+com.google.android.gms.R$string: int auth_client_needs_enabling_title
+com.google.android.gms.R$string: int auth_client_needs_installation_title
+com.google.android.gms.R$string: int auth_client_needs_update_title
+com.google.android.gms.R$string: int auth_client_play_services_err_notification_msg
+com.google.android.gms.R$string: int auth_client_requested_by_msg
+com.google.android.gms.R$string: int auth_client_using_bad_version_title
+com.google.android.gms.R$string: int common_google_play_services_enable_button
+com.google.android.gms.R$string: int common_google_play_services_enable_text
+com.google.android.gms.R$string: int common_google_play_services_enable_title
+com.google.android.gms.R$string: int common_google_play_services_install_button
+com.google.android.gms.R$string: int common_google_play_services_install_text_phone
+com.google.android.gms.R$string: int common_google_play_services_install_text_tablet
+com.google.android.gms.R$string: int common_google_play_services_install_title
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_text
+com.google.android.gms.R$string: int common_google_play_services_invalid_account_title
+com.google.android.gms.R$string: int common_google_play_services_network_error_text
+com.google.android.gms.R$string: int common_google_play_services_network_error_title
+com.google.android.gms.R$string: int common_google_play_services_unknown_issue
+com.google.android.gms.R$string: int common_google_play_services_unsupported_date_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_text
+com.google.android.gms.R$string: int common_google_play_services_unsupported_title
+com.google.android.gms.R$string: int common_google_play_services_update_button
+com.google.android.gms.R$string: int common_google_play_services_update_text
+com.google.android.gms.R$string: int common_google_play_services_update_title
+com.google.android.gms.R$string: int common_signin_button_text
+com.google.android.gms.R$string: int common_signin_button_text_long
+com.google.android.gms.R$styleable: int[] AdsAttrs
+com.google.android.gms.R$styleable: int AdsAttrs_adSize
+com.google.android.gms.R$styleable: int AdsAttrs_adUnitId
+com.google.android.gms.R$styleable: int[] MapAttrs
+com.google.android.gms.R$styleable: int MapAttrs_cameraBearing
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLat
+com.google.android.gms.R$styleable: int MapAttrs_cameraTargetLng
+com.google.android.gms.R$styleable: int MapAttrs_cameraTilt
+com.google.android.gms.R$styleable: int MapAttrs_cameraZoom
+com.google.android.gms.R$styleable: int MapAttrs_mapType
+com.google.android.gms.R$styleable: int MapAttrs_uiCompass
+com.google.android.gms.R$styleable: int MapAttrs_uiRotateGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiScrollGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiTiltGestures
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomControls
+com.google.android.gms.R$styleable: int MapAttrs_uiZoomGestures
+com.google.android.gms.R$styleable: int MapAttrs_useViewLifecycle
+com.google.android.gms.R$styleable: int MapAttrs_zOrderOnTop
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdListener getAdListener()
+com.google.android.gms.ads.AdView: com.google.android.gms.ads.AdSize getAdSize()
+com.google.android.gms.ads.AdView: java.lang.String getAdUnitId()
+com.google.android.gms.ads.AdView: void setAdListener(com.google.android.gms.ads.AdListener)
+com.google.android.gms.ads.AdView: void setAdSize(com.google.android.gms.ads.AdSize)
+com.google.android.gms.ads.AdView: void setAdUnitId(java.lang.String)
+com.google.android.gms.auth.RecoveryDecision
+com.google.android.gms.common.SignInButton: void setSize(int)
+com.google.android.gms.common.SignInButton: void setColorScheme(int)
+com.google.android.gms.common.SignInButton: void setOnClickListener(android.view.View$OnClickListener)
+com.google.android.gms.common.SignInButton: void setEnabled(boolean)
+com.google.android.gms.common.data.d
+com.google.android.gms.common.images.ImageManager$ImageReceiver
+com.google.android.gms.common.internal.safeparcel.SafeParcelable
+com.google.android.gms.games.Game
+com.google.android.gms.games.GameEntity
+com.google.android.gms.games.GameEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.Player
+com.google.android.gms.games.PlayerEntity
+com.google.android.gms.games.PlayerEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.b
+com.google.android.gms.games.d
+com.google.android.gms.games.multiplayer.Invitation
+com.google.android.gms.games.multiplayer.InvitationEntity
+com.google.android.gms.games.multiplayer.InvitationEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.Participant
+com.google.android.gms.games.multiplayer.ParticipantEntity
+com.google.android.gms.games.multiplayer.ParticipantEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.b
+com.google.android.gms.games.multiplayer.d
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage
+com.google.android.gms.games.multiplayer.realtime.RealTimeMessage: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.Room
+com.google.android.gms.games.multiplayer.realtime.RoomEntity
+com.google.android.gms.games.multiplayer.realtime.RoomEntity: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.games.multiplayer.realtime.c
+com.google.android.gms.internal.be
+com.google.android.gms.internal.bh
+com.google.android.gms.internal.bu
+com.google.android.gms.internal.bw
+com.google.android.gms.internal.co
+com.google.android.gms.internal.cq: void setContext(android.content.Context)
+com.google.android.gms.internal.dd
+com.google.android.gms.internal.dr
+com.google.android.gms.internal.dt
+com.google.android.gms.internal.dt$a
+com.google.android.gms.internal.dw$a
+com.google.android.gms.internal.dz
+com.google.android.gms.internal.dz$a
+com.google.android.gms.internal.dz$b
+com.google.android.gms.internal.ec
+com.google.android.gms.internal.en
+com.google.android.gms.internal.fa
+com.google.android.gms.internal.fn
+com.google.android.gms.internal.fq
+com.google.android.gms.internal.fs
+com.google.android.gms.internal.fv
+com.google.android.gms.internal.fv$a
+com.google.android.gms.internal.fv$b
+com.google.android.gms.internal.fv$b$a
+com.google.android.gms.internal.fv$b$b
+com.google.android.gms.internal.fv$c
+com.google.android.gms.internal.fv$d
+com.google.android.gms.internal.fv$f
+com.google.android.gms.internal.fv$g
+com.google.android.gms.internal.fv$h
+com.google.android.gms.internal.v
+com.google.android.gms.internal.x
+com.google.android.gms.location.ActivityRecognitionResult
+com.google.android.gms.location.DetectedActivity
+com.google.android.gms.location.LocationRequest
+com.google.android.gms.maps.GoogleMapOptions
+com.google.android.gms.maps.MapView: com.google.android.gms.maps.GoogleMap getMap()
+com.google.android.gms.maps.model.CameraPosition
+com.google.android.gms.maps.model.CircleOptions
+com.google.android.gms.maps.model.GroundOverlayOptions
+com.google.android.gms.maps.model.LatLng
+com.google.android.gms.maps.model.LatLngBounds
+com.google.android.gms.maps.model.MarkerOptions
+com.google.android.gms.maps.model.PolygonOptions
+com.google.android.gms.maps.model.PolylineOptions
+com.google.android.gms.maps.model.Tile
+com.google.android.gms.maps.model.TileOverlayOptions
+com.google.android.gms.maps.model.VisibleRegion
+com.google.android.gms.plus.PlusOneButton: void setOnPlusOneClickListener(com.google.android.gms.plus.PlusOneButton$OnPlusOneClickListener)
+com.google.android.gms.plus.PlusOneButton: void setAnnotation(int)
+com.google.android.gms.plus.PlusOneButton: void setSize(int)
+com.google.android.gms.plus.PlusOneButtonWithPopup: void setOnClickListener(android.view.View$OnClickListener)
+com.google.android.gms.plus.PlusOneButtonWithPopup: void setAnnotation(int)
+com.google.android.gms.plus.PlusOneButtonWithPopup: void setSize(int)
+com.google.android.gms.plus.PlusOneButtonWithPopup: android.app.PendingIntent getResolution()
+com.google.android.gms.wallet.Address
+com.google.android.gms.wallet.Address: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.Cart
+com.google.android.gms.wallet.Cart: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWallet
+com.google.android.gms.wallet.FullWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.FullWalletRequest
+com.google.android.gms.wallet.FullWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LineItem
+com.google.android.gms.wallet.LineItem: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.LoyaltyWalletObject
+com.google.android.gms.wallet.LoyaltyWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWallet
+com.google.android.gms.wallet.MaskedWallet: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.MaskedWalletRequest
+com.google.android.gms.wallet.MaskedWalletRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.NotifyTransactionStatusRequest
+com.google.android.gms.wallet.NotifyTransactionStatusRequest: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.OfferWalletObject
+com.google.android.gms.wallet.OfferWalletObject: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.wallet.ProxyCard
+com.google.android.gms.wallet.ProxyCard: android.os.Parcelable$Creator CREATOR
+it.sephiroth.android.library.easing.EasingManager$EaseType: it.sephiroth.android.library.easing.EasingManager$EaseType[] values()
+it.sephiroth.android.library.easing.EasingManager$EaseType: it.sephiroth.android.library.easing.EasingManager$EaseType valueOf(java.lang.String)
+it.sephiroth.android.library.imagezoom.ImageViewTouch: void setDoubleTapListener(it.sephiroth.android.library.imagezoom.ImageViewTouch$OnImageViewTouchDoubleTapListener)
+it.sephiroth.android.library.imagezoom.ImageViewTouch: void setSingleTapListener(it.sephiroth.android.library.imagezoom.ImageViewTouch$OnImageViewTouchSingleTapListener)
+it.sephiroth.android.library.imagezoom.ImageViewTouch: void setDoubleTapEnabled(boolean)
+it.sephiroth.android.library.imagezoom.ImageViewTouch: void setScaleEnabled(boolean)
+it.sephiroth.android.library.imagezoom.ImageViewTouch: void setScrollEnabled(boolean)
+it.sephiroth.android.library.imagezoom.ImageViewTouch: boolean getDoubleTapEnabled()
+it.sephiroth.android.library.imagezoom.ImageViewTouch: android.view.GestureDetector$OnGestureListener getGestureListener()
+it.sephiroth.android.library.imagezoom.ImageViewTouch: android.view.ScaleGestureDetector$OnScaleGestureListener getScaleListener()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setOnDrawableChangedListener(it.sephiroth.android.library.imagezoom.ImageViewTouchBase$OnDrawableChangeListener)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setOnLayoutChangeListener(it.sephiroth.android.library.imagezoom.ImageViewTouchBase$OnLayoutChangeListener)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setScaleType(android.widget.ImageView$ScaleType)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setDisplayType(it.sephiroth.android.library.imagezoom.ImageViewTouchBase$DisplayType)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: it.sephiroth.android.library.imagezoom.ImageViewTouchBase$DisplayType getDisplayType()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setMinScale(float)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setMaxScale(float)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setImageResource(int)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setImageBitmap(android.graphics.Bitmap)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setImageDrawable(android.graphics.drawable.Drawable)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: float getMaxScale()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: float getMinScale()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: android.graphics.Matrix getImageViewMatrix()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: void setImageMatrix(android.graphics.Matrix)
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: android.graphics.Matrix getDisplayMatrix()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: android.graphics.RectF getBitmapRect()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: float getRotation()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: float getScale()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: float getBaseScale()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase: android.graphics.PointF getCenter()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase$DisplayType: it.sephiroth.android.library.imagezoom.ImageViewTouchBase$DisplayType[] values()
+it.sephiroth.android.library.imagezoom.ImageViewTouchBase$DisplayType: it.sephiroth.android.library.imagezoom.ImageViewTouchBase$DisplayType valueOf(java.lang.String)

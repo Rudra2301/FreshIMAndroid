@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="10dp">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+	    <RelativeLayout
+	        android:id="@+id/friend_image_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true" >
+	        
+	        <ImageView
+		        android:id="@+id/friend_image"
+		        android:layout_width="60dp"
+		        android:layout_height="60dp"
+		        android:scaleType="centerCrop"
+		        android:src="@drawable/user" />
+		        
+		</RelativeLayout>
+		
+	    <RelativeLayout
+	        android:id="@+id/friend_online_image_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:gravity="center_vertical" >
+	        
+	        <ImageView
+		        android:id="@+id/friend_onlineimage"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:scaleType="centerCrop"
+		        android:src="@drawable/offline"
+		        android:visibility="gone" />
+	        
+	        <CheckBox
+		        android:id="@+id/chekbox"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:visibility="gone"/>
+	        
+		    <Button
+		        android:id="@+id/friend_add_button"
+		        android:layout_width="100dp"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:text="Add"
+		        android:textSize="14sp"
+		        android:visibility="gone" />
+		    
+		    <Button
+		        android:id="@+id/friend_reject_button"
+		        android:layout_width="100dp"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/friend_add_button"
+		        android:gravity="center"
+		        android:text="Reject"
+		        android:textSize="14sp"
+		        android:visibility="gone" />
+		    
+		        
+		</RelativeLayout>
+		
+	    <RelativeLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/friend_image_layout"
+	        android:layout_toLeftOf="@id/friend_online_image_layout"
+	        android:layout_centerVertical="true" >
+	        
+	        <RelativeLayout
+		        android:id="@+id/friend_text_layout"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_centerVertical="true"
+		        android:paddingLeft="5dp" >
+		        
+			    <TextView
+			        android:id="@+id/friend_name_text"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:maxLines="1"
+			        android:ellipsize="end"
+			        android:textColor="@color/holo_blue_dark"
+			        android:textSize="22sp" />
+			    
+			    <TextView
+			        android:id="@+id/friend_count_text"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_below="@id/friend_name_text"
+			        android:textSize="14sp"
+			        android:textColor="@color/gray_9"
+			        android:maxLines="2"
+			        android:ellipsize="end" />
+				
+		    </RelativeLayout>
+		    
+		</RelativeLayout>
+		
+	        
+    </RelativeLayout>
+      
+</RelativeLayout>

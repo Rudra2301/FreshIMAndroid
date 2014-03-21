@@ -1,0 +1,115 @@
+# view res/layout/home.xml #generated:2
+-keep class android.support.v4.widget.DrawerLayout { <init>(...); }
+
+# view res/layout/homeslidingpane.xml #generated:2
+-keep class android.support.v4.widget.SlidingPaneLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.chat.imapp.DownLoadFileService { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.chat.imapp.EditPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.chat.imapp.EditProfileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.chat.imapp.FriendRequestService { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.chat.imapp.FriendsAllListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.chat.imapp.FriendsDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.chat.imapp.FriendsListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.chat.imapp.GcmBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.chat.imapp.GcmIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.chat.imapp.GroupChooseFriendListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.chat.imapp.GroupCreateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.chat.imapp.GroupDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.chat.imapp.GroupEditMemberListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.chat.imapp.GroupListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.chat.imapp.GroupMessageDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class com.chat.imapp.LoadFileService { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.chat.imapp.LoadImageService { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.chat.imapp.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.chat.imapp.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.chat.imapp.ResponseRequestService { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.chat.imapp.SettingsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.chat.imapp.StatusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.chat.imapp.UploadFileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.chat.imapp.UploadImageService { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.chat.imapp.UploadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.chat.imapp.UserDetailActivity { <init>(...); }
+
+# onClick res/layout/friends_list.xml #generated:60
+-keepclassmembers class * { *** onAddClick(...); }
+
+# onClick res/layout/group_detail.xml #generated:69
+-keepclassmembers class * { *** onAddUserClick(...); }
+
+# onClick res/layout/settings.xml #generated:80
+-keepclassmembers class * { *** onChangePasswordClick(...); }
+
+# onClick res/layout/settings.xml #generated:57
+-keepclassmembers class * { *** onChangeStatusClick(...); }
+
+# onClick res/layout/settings.xml #generated:34
+-keepclassmembers class * { *** onEditProfileClick(...); }
+
+# onClick res/layout/frienddetail.xml #generated:15
+-keepclassmembers class * { *** onSendClick(...); }
+
+# onClick res/layout/login.xml #generated:67
+-keepclassmembers class * { *** onSkipClick(...); }
+
+# onClick res/layout/friends_list.xml #generated:14
+-keepclassmembers class * { *** onToggleClick(...); }
+
+# onClick res/layout/frienddetail.xml #generated:25
+# onClick res/layout/group_create.xml #generated:15
+# onClick res/layout/group_detail.xml #generated:18
+# onClick res/layout/group_edit.xml #generated:13
+# onClick res/layout/register.xml #generated:15
+-keepclassmembers class * { *** onUploadClick(...); }
+

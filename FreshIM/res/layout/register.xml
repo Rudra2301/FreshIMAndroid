@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+    
+    <ImageView 
+        android:id="@+id/userImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onUploadClick"
+        android:scaleType="fitCenter"
+		android:src="@drawable/user"
+		android:visibility="visible"/>
+      
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="First Name:"
+         android:layout_marginTop="20dip"/>
+      
+     <EditText android:id="@+id/txtName"
+         android:layout_width="fill_parent"
+         android:layout_height="40dip"
+         android:inputType="textPersonName|textNoSuggestions|textCapSentences"
+         android:padding="5dp"
+         android:hint="first name"
+         android:background="@drawable/sublayout_bg_curve"/>
+     
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Last Name:"
+         android:layout_marginTop="20dip"/>
+      
+     <EditText android:id="@+id/txtLastName"
+         android:layout_width="fill_parent"
+         android:layout_height="40dip"
+         android:inputType="textPersonName|textNoSuggestions|textCapSentences"
+         android:padding="5dp"
+         android:hint="last name"
+         android:background="@drawable/sublayout_bg_curve"/>
+           
+     <TextView 
+         android:id="@+id/txtEmailtxt"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Email:"
+         android:layout_marginTop="20dip"/>
+      
+     <EditText android:id="@+id/txtEmail"
+         android:layout_width="fill_parent"
+         android:layout_height="40dip"
+         android:inputType="textEmailAddress|textNoSuggestions"
+         android:padding="5dp"
+         android:hint="username@company.com"
+         android:background="@drawable/sublayout_bg_curve"/>
+               
+     <TextView
+         android:id="@+id/txtPasswordtxt"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Password:"
+         android:layout_marginTop="20dip"/>
+      
+     <EditText android:id="@+id/txtPassword"
+         android:layout_width="fill_parent"
+         android:layout_height="40dip"
+         android:inputType="textPassword|textNoSuggestions"
+         android:padding="5dp"
+         android:hint="atleast 6 characters"
+         android:background="@drawable/sublayout_bg_curve"/>
+          
+     <TextView android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Status:"
+         android:layout_marginTop="20dip"/>
+     
+     <EditText android:id="@+id/txtStatus"
+         android:layout_width="fill_parent"
+         android:layout_height="40dip"
+         android:maxLength="150"
+         android:inputType="textShortMessage|textNoSuggestions|textCapSentences"
+         android:padding="5dp"
+         android:hint="status"
+         android:background="@drawable/sublayout_bg_curve"/>
+     
+     <Button android:id="@+id/btnRegister"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="Register"
+         android:layout_marginTop="10dip"
+         android:textColor="@color/white"
+         android:textSize="26sp"
+         android:background="@color/transparent"/>     
+ 	
+</LinearLayout>
+
+</ScrollView>

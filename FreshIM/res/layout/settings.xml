@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="2dp"
+	    android:visibility="gone"
+	    android:background="@color/gray_d" >
+     	
+     	<TextView 
+     	    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"	         
+	        android:padding="10dp"
+	        android:layout_marginBottom="2dp"
+	        android:text="ACCOUNT SETTINGS"
+	        android:textColor="@color/gray_7"
+	        android:textSize="14sp"
+	        android:background="@color/white"/>
+     	
+ 	</RelativeLayout>
+ 	
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="1dp"
+	    android:background="@color/gray_f" >
+     	
+     	<Button 
+     	    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"	       
+	        android:layout_marginBottom="2dp"
+	        android:gravity="left"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:paddingRight="10dp"
+	        android:text="Edit Profile"
+	        android:textColor="@color/gray_5"
+	        android:textSize="18sp"
+	        android:background="@drawable/selector_button"
+	        android:onClick="onEditProfileClick"/>
+     
+ 	</RelativeLayout>
+ 	
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="1dp"
+	    android:background="@color/gray_f" >
+     	
+     	<Button 
+     	    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"	       
+	        android:layout_marginBottom="2dp"
+	        android:gravity="left"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:paddingRight="10dp"
+	        android:text="Change Status"
+	        android:textColor="@color/gray_5"
+	        android:textSize="18sp"
+	        android:background="@drawable/selector_button"
+	        android:onClick="onChangeStatusClick"/>
+     
+ 	</RelativeLayout>
+ 	
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="1dp"
+	    android:background="@color/gray_f" >
+     	
+     	<Button 
+     	    android:layout_width="match_parent"
+	        android:layout_height="wrap_content"	       
+	        android:layout_marginBottom="2dp"
+	        android:gravity="left"
+	        android:paddingLeft="20dp"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="10dp"
+	        android:paddingRight="10dp"
+	        android:text="Change Password"
+	        android:textColor="@color/gray_5"
+	        android:textSize="18sp"
+	        android:background="@drawable/selector_button"
+	        android:onClick="onChangePasswordClick"/>
+     
+ 	</RelativeLayout>
+ 
+</LinearLayout>
